@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1.456 s <<< FAILURE! - in TestSuite
+apple_tests.BuyMacTest.putMacBookAirToBag  Time elapsed: 0.641 s  <<< FAILURE!
+java.lang.NoSuchMethodError: org.openqa.selenium.chrome.ChromeOptions.setHeadless(Z)Lorg/openqa/selenium/chrome/ChromeOptions;
+	at apple_tests.BuyMacTest.putMacBookAirToBag(BuyMacTest.java:25)
+
+apple_tests.BuyMacTest.test  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NoSuchMethodError: org.openqa.selenium.chrome.ChromeOptions.setHeadless(Z)Lorg/openqa/selenium/chrome/ChromeOptions;
+	at apple_tests.BuyMacTest.test(BuyMacTest.java:37)
+
