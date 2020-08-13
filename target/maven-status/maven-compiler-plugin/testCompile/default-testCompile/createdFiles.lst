@@ -1,9 +1,0 @@
-resourses/Client$Builder.class
-pages/HomePage.class
-pages/PersonalInformationPage.class
-selenide_base_test/BaseTest.class
-pages/AccountPage.class
-pages/AuthenticationPage.class
-resourses/Client.class
-selenide_tests/Login.class
-pages/CreateAccountPage.class

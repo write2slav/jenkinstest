@@ -47,19 +47,23 @@ public class Login extends BaseTest {
 
 	@DataProvider(name = "data-test-clients", parallel = true)
 	public Object[][] getTestClients() {
+
+		// Creating test clients
+		Client clientOne = new Client.Builder().addEmail(genarateRandomeEmail()).addName("Joe").addSurname("Moe")
+				.addPasword("qwertytest").build();
+
+		Client clientTwo = new Client.Builder().addEmail(genarateRandomeEmail()).addName("Joe").addSurname("Moe")
+				.addPasword("qwertytest").build();
+
+		return new Object[][] { { clientOne }, { clientTwo } };
+	}
+
+	public String genarateRandomeEmail() {
 		// Create a randomly generated email
 		StringBuilder sb = new StringBuilder("@gmail.com");
 		sb.insert(0, Integer.toString((int) (Math.random() * 100000)));
 		String email = sb.toString();
-
-		// Creating test clients
-		Client clientOne = new Client.Builder().addEmail(email).addName("Joe").addSurname("Moe")
-				.addPasword("qwertytest").build();
-
-		Client clientTwo = new Client.Builder().addEmail(email).addName("Joe").addSurname("Moe")
-				.addPasword("qwertytest").build();
-
-		return new Object[][] { { clientOne }, { clientTwo } };
+		return email;
 	}
 
 }
