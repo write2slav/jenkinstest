@@ -5,9 +5,9 @@
     <classes>
       <class name="selenide_tests.Login">
         <methods>
-          <include name="terminate"/>
           <include name="setUp"/>
-          <include name="registerClient" invocation-numbers="0 1"/>
+          <include name="terminate"/>
+          <include name="registerClient" invocation-numbers="0"/>
         </methods>
       </class> <!-- selenide_tests.Login -->
     </classes>

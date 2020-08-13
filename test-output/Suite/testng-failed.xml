@@ -7,7 +7,7 @@
         <methods>
           <include name="setUp"/>
           <include name="terminate"/>
-          <include name="registerClient" invocation-numbers="0 1"/>
+          <include name="registerClient" invocation-numbers="1 0"/>
         </methods>
       </class> <!-- selenide_tests.Login -->
     </classes>

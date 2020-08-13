@@ -13,6 +13,9 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>3.0.0-M5</version>
 				<configuration>
+					<suiteXmlFiles>
+						<suiteXmlFile>testng.xml</suiteXmlFile>
+					</suiteXmlFiles>
 
 				</configuration>
 			</plugin>
@@ -28,9 +31,7 @@
 		</plugins>
 	</build>
 
-
 	<dependencies>
-
 
 		<dependency>
 			<groupId>com.codeborne</groupId>
@@ -39,7 +40,6 @@
 			<scope>test</scope>
 
 		</dependency>
-
 
 		<dependency>
 			<groupId>io.github.bonigarcia</groupId>
@@ -61,8 +61,6 @@
 			<version>7.1.0</version>
 			<scope>test</scope>
 		</dependency>
-
-
 
 	</dependencies>
 </project>

@@ -4,7 +4,7 @@ import static com.codeborne.selenide.Selenide.*;
 
 import org.openqa.selenium.By;
 
-import test.resources.utils.Client;
+import resourses.Client;
 
 public class AuthenticationPage {
 

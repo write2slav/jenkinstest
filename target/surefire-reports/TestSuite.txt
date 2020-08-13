@@ -1,12 +1,46 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1.456 s <<< FAILURE! - in TestSuite
-apple_tests.BuyMacTest.putMacBookAirToBag  Time elapsed: 0.641 s  <<< FAILURE!
-java.lang.NoSuchMethodError: org.openqa.selenium.chrome.ChromeOptions.setHeadless(Z)Lorg/openqa/selenium/chrome/ChromeOptions;
-	at apple_tests.BuyMacTest.putMacBookAirToBag(BuyMacTest.java:25)
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 17.407 s <<< FAILURE! - in TestSuite
+selenide_tests.Login.registerClient[resourses.Client@681d6c61](1)  Time elapsed: 16.576 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: //input[@id='id_gender1']}
+Expected: visible or transparent: visible or have css value opacity=0
+Screenshot: file:/Users/sl/eclipse-workspace/selenide-test/build/reports/tests/1597322176257.0.png
+Page source: file:/Users/sl/eclipse-workspace/selenide-test/build/reports/tests/1597322176257.0.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='id_gender1']"}
+	at selenide_tests.Login.registerClient(Login.java:32)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='id_gender1']"}
+  (Session info: chrome=84.0.4147.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'C02TQPDLHV2L', ip: '2a02:8084:9042:2600:60fa:bac8:7fe8:fd55', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/db/2104bl4d14q...}, goog:chromeOptions: {debuggerAddress: localhost:63776}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 78cdf09015a1877e3426ab347ccd7bfe
+*** Element info: {Using=xpath, value=//input[@id='id_gender1']}
+	at selenide_tests.Login.registerClient(Login.java:32)
 
-apple_tests.BuyMacTest.test  Time elapsed: 0.001 s  <<< FAILURE!
-java.lang.NoSuchMethodError: org.openqa.selenium.chrome.ChromeOptions.setHeadless(Z)Lorg/openqa/selenium/chrome/ChromeOptions;
-	at apple_tests.BuyMacTest.test(BuyMacTest.java:37)
+selenide_tests.Login.registerClient[resourses.Client@3a50f9cb](2)  Time elapsed: 16.616 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: //input[@id='id_gender1']}
+Expected: visible or transparent: visible or have css value opacity=0
+Screenshot: file:/Users/sl/eclipse-workspace/selenide-test/build/reports/tests/1597322176305.1.png
+Page source: file:/Users/sl/eclipse-workspace/selenide-test/build/reports/tests/1597322176305.1.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='id_gender1']"}
+	at selenide_tests.Login.registerClient(Login.java:32)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='id_gender1']"}
+  (Session info: chrome=84.0.4147.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'C02TQPDLHV2L', ip: '2a02:8084:9042:2600:60fa:bac8:7fe8:fd55', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.5', java.version: '1.8.0_102'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/db/2104bl4d14q...}, goog:chromeOptions: {debuggerAddress: localhost:63777}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: e59ac37f275e8b254c4e22e6e7ffd9bc
+*** Element info: {Using=xpath, value=//input[@id='id_gender1']}
+	at selenide_tests.Login.registerClient(Login.java:32)
 

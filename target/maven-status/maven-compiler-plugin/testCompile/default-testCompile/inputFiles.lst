@@ -1,5 +1,6 @@
 /Users/sl/eclipse-workspace/selenide-test/src/test/java/selenide_tests/Login.java
 /Users/sl/eclipse-workspace/selenide-test/src/test/java/pages/PersonalInformationPage.java
+/Users/sl/eclipse-workspace/selenide-test/src/test/java/resourses/Client.java
 /Users/sl/eclipse-workspace/selenide-test/src/test/java/pages/HomePage.java
 /Users/sl/eclipse-workspace/selenide-test/src/test/java/pages/CreateAccountPage.java
 /Users/sl/eclipse-workspace/selenide-test/src/test/java/pages/AuthenticationPage.java
