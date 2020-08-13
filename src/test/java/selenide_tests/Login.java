@@ -38,13 +38,6 @@ public class Login extends BaseTest {
 
 	}
 
-	@Ignore
-	@Test(dataProvider = "data-test-clients")
-	public void test(Client client) {
-
-		System.out.println(client.getEmail());
-	}
-
 	@DataProvider(name = "data-test-clients", parallel = true)
 	public Object[][] getTestClients() {
 
